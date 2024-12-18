@@ -20,4 +20,7 @@ public class Battler {
         this.hp += amount;
         System.out.println(this.name + " possede maintenat " + this.hp + " HP ");
     }
+    public boolean ilemort() {
+        return this.hp <= 0;
+    }
 }

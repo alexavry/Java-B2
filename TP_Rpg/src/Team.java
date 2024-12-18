@@ -16,4 +16,8 @@ public class Team {
         };
         return true;
     }
+    public List<Battler> getBattlers() {
+        return battlers;
+    }
+
 }
