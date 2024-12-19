@@ -10,10 +10,10 @@ public class Team {
     //fonction pour verifier si tous les gens d'une équipe sont morts
     public Boolean isLoose() {
         for (Battler b : battlers) {
-            if (b.hp <= 0){
+            if (b.hp > 0) {
                 return false;
-            };
-        };
+            }
+        }
         return true;
     }
     public List<Battler> getBattlers() {

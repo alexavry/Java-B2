@@ -17,8 +17,8 @@ public class Battler {
     }
     //fonction qui fait perdre des hps
     public void looseHP(int amount) {
-        this.hp += amount;
-        System.out.println(this.name + " possede maintenat " + this.hp + " HP ");
+        this.hp -= amount;
+        System.out.println(this.name + " possède maintenant " + this.hp + " HP");
     }
     public boolean ilemort() {
         return this.hp <= 0;
